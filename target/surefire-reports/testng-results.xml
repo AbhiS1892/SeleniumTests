@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="13" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-21T21:58:48 IST" name="Full Regression Suite" finished-at="2025-08-21T21:59:36 IST" duration-ms="48804">
+    <groups>
+      <group name="negative">
+        <method signature="LoginTests.negativeLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sa.tests.login.LoginTests@6ca8564a]" name="negativeLoginTest" class="com.sa.tests.login.LoginTests"/>
+        <method signature="LoginTests.negativeLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sa.tests.login.LoginTests@1725dc0f]" name="negativeLoginTest" class="com.sa.tests.login.LoginTests"/>
+      </group> <!-- negative -->
+      <group name="regression">
+        <method signature="LoginTests.testLoginFunctionality()[pri:0, instance:com.sa.tests.login.LoginTests@5ccddd20]" name="testLoginFunctionality" class="com.sa.tests.login.LoginTests"/>
+        <method signature="LoginTests.testLoginFunctionality()[pri:0, instance:com.sa.tests.login.LoginTests@50a638b5]" name="testLoginFunctionality" class="com.sa.tests.login.LoginTests"/>
+        <method signature="LoginTests.negativeLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sa.tests.login.LoginTests@6ca8564a]" name="negativeLoginTest" class="com.sa.tests.login.LoginTests"/>
+        <method signature="LoginTests.negativeLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sa.tests.login.LoginTests@1725dc0f]" name="negativeLoginTest" class="com.sa.tests.login.LoginTests"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginTests.testLoginFunctionality()[pri:0, instance:com.sa.tests.login.LoginTests@5ccddd20]" name="testLoginFunctionality" class="com.sa.tests.login.LoginTests"/>
+        <method signature="LoginTests.testLoginFunctionality()[pri:0, instance:com.sa.tests.login.LoginTests@50a638b5]" name="testLoginFunctionality" class="com.sa.tests.login.LoginTests"/>
+      </group> <!-- smoke -->
+      <group name="positive">
+        <method signature="LoginTests.testLoginFunctionality()[pri:0, instance:com.sa.tests.login.LoginTests@5ccddd20]" name="testLoginFunctionality" class="com.sa.tests.login.LoginTests"/>
+        <method signature="LoginTests.testLoginFunctionality()[pri:0, instance:com.sa.tests.login.LoginTests@50a638b5]" name="testLoginFunctionality" class="com.sa.tests.login.LoginTests"/>
+      </group> <!-- positive -->
+    </groups>
+    <test started-at="2025-08-21T21:58:48 IST" name="Positive Login Tests" finished-at="2025-08-21T21:58:53 IST" duration-ms="4946">
+      <class name="com.sa.tests.login.LoginTests">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sa.tests.login.LoginTests@5ccddd20]" started-at="2025-08-21T21:58:48 IST" name="setup" finished-at="2025-08-21T21:58:49 IST" duration-ms="1283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginFunctionality()[pri:0, instance:com.sa.tests.login.LoginTests@5ccddd20]" started-at="2025-08-21T21:58:49 IST" name="testLoginFunctionality" finished-at="2025-08-21T21:58:52 IST" duration-ms="3522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sa.tests.login.LoginTests@5ccddd20]" started-at="2025-08-21T21:58:52 IST" name="tearDown" finished-at="2025-08-21T21:58:53 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sa.tests.login.LoginTests -->
+    </test> <!-- Positive Login Tests -->
+    <test started-at="2025-08-21T21:58:53 IST" name="Positive Login Tests chrome" finished-at="2025-08-21T21:58:56 IST" duration-ms="3731">
+      <class name="com.sa.tests.login.LoginTests">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sa.tests.login.LoginTests@50a638b5]" started-at="2025-08-21T21:58:53 IST" name="setup" finished-at="2025-08-21T21:58:53 IST" duration-ms="598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginFunctionality()[pri:0, instance:com.sa.tests.login.LoginTests@50a638b5]" started-at="2025-08-21T21:58:53 IST" name="testLoginFunctionality" finished-at="2025-08-21T21:58:56 IST" duration-ms="3012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sa.tests.login.LoginTests@50a638b5]" started-at="2025-08-21T21:58:56 IST" name="tearDown" finished-at="2025-08-21T21:58:56 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sa.tests.login.LoginTests -->
+    </test> <!-- Positive Login Tests chrome -->
+    <test started-at="2025-08-21T21:58:56 IST" name="Incorrect Username Test" finished-at="2025-08-21T21:59:00 IST" duration-ms="3903">
+      <class name="com.sa.tests.login.LoginTests">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sa.tests.login.LoginTests@6ca8564a]" started-at="2025-08-21T21:58:56 IST" name="setup" finished-at="2025-08-21T21:58:57 IST" duration-ms="646" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="negativeLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sa.tests.login.LoginTests@6ca8564a]" started-at="2025-08-21T21:58:57 IST" name="negativeLoginTest" finished-at="2025-08-21T21:59:00 IST" duration-ms="3127" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[incorrectUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your username is invalid!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sa.tests.login.LoginTests@6ca8564a]" started-at="2025-08-21T21:59:00 IST" name="tearDown" finished-at="2025-08-21T21:59:00 IST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sa.tests.login.LoginTests -->
+    </test> <!-- Incorrect Username Test -->
+    <test started-at="2025-08-21T21:59:00 IST" name="Incorrect Password Test" finished-at="2025-08-21T21:59:04 IST" duration-ms="3397">
+      <class name="com.sa.tests.login.LoginTests">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sa.tests.login.LoginTests@1725dc0f]" started-at="2025-08-21T21:59:00 IST" name="setup" finished-at="2025-08-21T21:59:01 IST" duration-ms="616" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="negativeLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sa.tests.login.LoginTests@1725dc0f]" started-at="2025-08-21T21:59:01 IST" name="negativeLoginTest" finished-at="2025-08-21T21:59:04 IST" duration-ms="2661" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[incorrectPassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your password is invalid!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sa.tests.login.LoginTests@1725dc0f]" started-at="2025-08-21T21:59:04 IST" name="tearDown" finished-at="2025-08-21T21:59:04 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sa.tests.login.LoginTests -->
+    </test> <!-- Incorrect Password Test -->
+    <test started-at="2025-08-21T21:59:04 IST" name="Exception Tests" finished-at="2025-08-21T21:59:36 IST" duration-ms="32805">
+      <class name="com.sa.tests.exceptions.ExceptionTests">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sa.tests.exceptions.ExceptionTests@15eb5ee5]" started-at="2025-08-21T21:59:04 IST" name="setup" finished-at="2025-08-21T21:59:04 IST" duration-ms="581" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="elementNotInteractableException()[pri:0, instance:com.sa.tests.exceptions.ExceptionTests@15eb5ee5]" started-at="2025-08-21T21:59:04 IST" name="elementNotInteractableException" finished-at="2025-08-21T21:59:12 IST" duration-ms="7855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementNotInteractableException -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sa.tests.exceptions.ExceptionTests@15eb5ee5]" started-at="2025-08-21T21:59:12 IST" name="tearDown" finished-at="2025-08-21T21:59:12 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sa.tests.exceptions.ExceptionTests@15eb5ee5]" started-at="2025-08-21T21:59:12 IST" name="setup" finished-at="2025-08-21T21:59:13 IST" duration-ms="649" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidElementStateExceptionTest()[pri:0, instance:com.sa.tests.exceptions.ExceptionTests@15eb5ee5]" started-at="2025-08-21T21:59:13 IST" name="invalidElementStateExceptionTest" finished-at="2025-08-21T21:59:16 IST" duration-ms="3233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidElementStateExceptionTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sa.tests.exceptions.ExceptionTests@15eb5ee5]" started-at="2025-08-21T21:59:16 IST" name="tearDown" finished-at="2025-08-21T21:59:16 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sa.tests.exceptions.ExceptionTests@15eb5ee5]" started-at="2025-08-21T21:59:16 IST" name="setup" finished-at="2025-08-21T21:59:17 IST" duration-ms="647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="noSuchElementExceptionTest()[pri:0, instance:com.sa.tests.exceptions.ExceptionTests@15eb5ee5]" started-at="2025-08-21T21:59:17 IST" name="noSuchElementExceptionTest" finished-at="2025-08-21T21:59:25 IST" duration-ms="7993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noSuchElementExceptionTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sa.tests.exceptions.ExceptionTests@15eb5ee5]" started-at="2025-08-21T21:59:25 IST" name="tearDown" finished-at="2025-08-21T21:59:25 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sa.tests.exceptions.ExceptionTests@15eb5ee5]" started-at="2025-08-21T21:59:25 IST" name="setup" finished-at="2025-08-21T21:59:26 IST" duration-ms="566" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="staleElementReferenceExceptionTest()[pri:0, instance:com.sa.tests.exceptions.ExceptionTests@15eb5ee5]" started-at="2025-08-21T21:59:26 IST" name="staleElementReferenceExceptionTest" finished-at="2025-08-21T21:59:28 IST" duration-ms="2476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- staleElementReferenceExceptionTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sa.tests.exceptions.ExceptionTests@15eb5ee5]" started-at="2025-08-21T21:59:28 IST" name="tearDown" finished-at="2025-08-21T21:59:28 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sa.tests.exceptions.ExceptionTests@15eb5ee5]" started-at="2025-08-21T21:59:28 IST" name="setup" finished-at="2025-08-21T21:59:29 IST" duration-ms="656" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="timeoutExceptionTest()[pri:0, instance:com.sa.tests.exceptions.ExceptionTests@15eb5ee5]" started-at="2025-08-21T21:59:29 IST" name="timeoutExceptionTest" finished-at="2025-08-21T21:59:36 IST" duration-ms="7487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeoutExceptionTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sa.tests.exceptions.ExceptionTests@15eb5ee5]" started-at="2025-08-21T21:59:36 IST" name="tearDown" finished-at="2025-08-21T21:59:36 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sa.tests.exceptions.ExceptionTests -->
+    </test> <!-- Exception Tests -->
+  </suite> <!-- Full Regression Suite -->
+</testng-results>

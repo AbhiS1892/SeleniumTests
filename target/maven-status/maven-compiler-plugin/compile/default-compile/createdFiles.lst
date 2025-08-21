@@ -1,0 +1,4 @@
+com\sa\pages\BasePage.class
+com\sa\pages\LoginPage.class
+com\sa\pages\SucessfullLoginPage.class
+com\sa\pages\ExceptionPage.class

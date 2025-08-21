@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Debug Regression Suite" verbose="1">
+    <test name="Debug Tests">
+        <classes>
+            <class name="com.sa.tests.exceptions.ExceptionTests"/>
+        </classes>
+    </test>
+</suite>
